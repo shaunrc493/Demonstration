@@ -1,5 +1,7 @@
 <?php
 
+/*some kind of change*/
+
 if (!empty($_POST['loginUsername']) && !empty($_POST['loginPassword'])){
 
 	$logUser = $_POST['loginUsername'];

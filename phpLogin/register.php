@@ -19,6 +19,7 @@ $newConfirm = $_POST['regConfirm'];
 $passHash = password_hash($newPassword, PASSWORD_DEFAULT);
 
 
+
 if ($newPassword == $newConfirm){
 	
 	try {
