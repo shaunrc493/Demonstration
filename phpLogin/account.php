@@ -1,5 +1,7 @@
 <?php 
 
+	/*New code comment*/
+
 	session_start();
 
 	if (isset($_SESSION['username'])){
